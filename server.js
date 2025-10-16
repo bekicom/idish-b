@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const dbConfig = require("./config/dbConfig");
 const routes = require("./routes/routes");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8051;
 
 const { createServer } = require("node:http");
 const soket = require("./socket");
